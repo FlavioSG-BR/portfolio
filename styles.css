@@ -1,0 +1,60 @@
+/* Estilo do corpo */
+body {
+    background-color: #2b2925;
+    color: #e0d7cd;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ffc947;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo das seções */
+  section {
+    background-color: #443d38;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #ffc947;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #2b2925;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #e0d7cd;
+  }
