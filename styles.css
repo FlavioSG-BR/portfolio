@@ -74,3 +74,22 @@ body {
     text-decoration: underline;
   }
   
+  .language-toggle {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .language-toggle[data-lang="pt"] {
+    background-color: #006400;
+    color: white;
+  }
+  
+  .language-toggle[data-lang="en"] {
+    background-color: #FF0000;
+    color: #0000FF;
+  }
+  
+  
