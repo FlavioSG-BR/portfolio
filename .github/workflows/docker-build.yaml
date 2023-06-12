@@ -23,4 +23,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: flaviosgbr/portfolio:tagname
+        tags: flaviosgbr/portfolio:v1.0.0
