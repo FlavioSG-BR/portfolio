@@ -75,22 +75,27 @@ body {
   }
   
   .language-toggle {
-    width: 150px;
-    height: 70px;
+    width: 200px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
   .language-toggle[data-lang="pt"] {
-    background-color: #006400;
+    background-color: #32CD32;
     color: white;
   }
   
   .language-toggle[data-lang="en"] {
-    background-color: #f13e3e;
-    color: #0000FF;
+    background-color: #FF6347;
+    color: #4169E1;
   }
+  
+  .language-toggle:hover {
+    opacity: 0.8;
+  }
+  
   
   
