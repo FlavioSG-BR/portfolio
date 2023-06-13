@@ -93,8 +93,8 @@ body {
   }
   
   .language-toggle[data-lang="en"] {
-    background-color: #FF6347;
-    color: #4169E1;
+    background-color: #fc6363;
+    color: #000208;
   }
   
   .language-toggle:hover {
