@@ -26,71 +26,79 @@
     </script>
 </head>
 <body>
-    <header>
-        <button class="language-toggle" onclick="toggleLanguage()" data-lang="en" data-pt="Switch to english" data-en="Mudar para Português">Mudar para Português</button>
-        <h1 data-lang="en" data-en="Curriculum Vitae" data-pt="Currículo">Curriculum Vitae</h1>
-        <p data-lang="en" data-en="A DevOps Engineer and Full-Stack Developer." data-pt="Um Engenheiro DevOps e Desenvolvedor Full-Stack.">A DevOps Engineer and Full-Stack Developer.</p>
-    </header>
+    <div class="container">
+        <header>
+            <button class="language-toggle" onclick="toggleLanguage()" data-lang="en" data-pt="Switch to english" data-en="Mudar para Português">Mudar para Português</button>
+            <h1 data-lang="en" data-en="Curriculum Vitae" data-pt="Currículo">Curriculum Vitae</h1>
+            <p data-lang="en" data-en="A DevOps Engineer and Full-Stack Developer." data-pt="Um Engenheiro DevOps e Desenvolvedor Full-Stack.">A DevOps Engineer and Full-Stack Developer.</p>
+        </header>
+        
+        <div class="columns">
+            <div class="column">
+                <section id="about-me">
+                    <h2 data-lang="en" data-en="About Me" data-pt="Sobre Mim">About Me</h2>
+                    <p data-lang="en" data-en="Since October 2021, I have been working as a DevOps Engineer. Additionally, I have 2 years of experience as a full-stack developer and hold a degree in Science from the University of São Paulo." data-pt="Desde outubro de 2021, trabalho como Engenheiro DevOps. Além disso, tenho 2 anos de experiência como desenvolvedor full-stack e sou formado em Ciências pela Universidade de São Paulo.">Since October 2021, I have been working as a DevOps Engineer. Additionally, I have 2 years of experience as a full-stack developer and hold a degree in Science from the University of São Paulo.</p>
+                </section>
     
-    <section id="about-me">
-        <h2 data-lang="en" data-en="About Me" data-pt="Sobre Mim">About Me</h2>
-        <p data-lang="en" data-en="Since October 2021, I have been working as a DevOps Engineer. Additionally, I have 2 years of experience as a full-stack developer and hold a degree in Science from the University of São Paulo." data-pt="Desde outubro de 2021, trabalho como Engenheiro DevOps. Além disso, tenho 2 anos de experiência como desenvolvedor full-stack e sou formado em Ciências pela Universidade de São Paulo.">Since October 2021, I have been working as a DevOps Engineer. Additionally, I have 2 years of experience as a full-stack developer and hold a degree in Science from the University of São Paulo.</p>
-    </section>
+                <section id="skills">
+                    <h2 data-lang="en" data-en="Skills" data-pt="Habilidades">Skills</h2>
+                    <ul>
+                        <li data-lang="en" data-en="Automation of software development processes using AWS and Azure" data-pt="Automação de processos de desenvolvimento de software utilizando AWS e Azure">Automation of software development processes using AWS and Azure</li>
+                        <li data-lang="en" data-en="Strong knowledge of Docker and Kubernetes" data-pt="Conhecimento sólido em Docker e Kubernetes">Strong knowledge of Docker and Kubernetes</li>
+                        <li data-lang="en" data-en="AZ-900 Azure Certification" data-pt="Certificação AZ-900 da Azure">AZ-900 Azure Certification</li>
+                        <li data-lang="en" data-en="Experience with Java, JavaScript, Node.js, React, and React Native" data-pt="Experiência com Java, JavaScript, Node.js, React e React Native">Experience with Java, JavaScript, Node.js, React, and React Native</li>
+                        <li data-lang="en" data-en="Management of back-end services such as Couchbase, Kafka, Elasticsearch, Cloudera, Camunda, and Grafana" data-pt="Gerenciamento de serviços de back-end como Couchbase, Kafka, Elasticsearch, Cloudera, Camunda e Grafana">Management of back-end services such as Couchbase, Kafka, Elasticsearch, Cloudera, Camunda, and Grafana</li>
+                        <li data-lang="en" data-en="Logging, monitoring, and tracing applications for microservices architecture" data-pt="Logging, monitoramento e rastreamento de aplicações para arquitetura de microsserviços">Logging, monitoring, and tracing applications for microservices architecture</li>
+                        <li data-lang="en" data-en="Working with databases like Postgres" data-pt="Trabalhando com bancos de dados como Postgres">Working with databases like Postgres</li>
+                        <li data-lang="en" data-en="Full-stack development with Java and JavaScript" data-pt="Desenvolvimento full-stack com Java e JavaScript">Full-stack development with Java and JavaScript</li>
+                    </ul>
+                </section>
     
-    <section id="skills">
-        <h2 data-lang="en" data-en="Skills" data-pt="Habilidades">Skills</h2>
-        <ul>
-            <li data-lang="en" data-en="Automation of software development processes using AWS and Azure" data-pt="Automação de processos de desenvolvimento de software utilizando AWS e Azure">Automation of software development processes using AWS and Azure</li>
-            <li data-lang="en" data-en="Strong knowledge of Docker and Kubernetes" data-pt="Conhecimento sólido em Docker e Kubernetes">Strong knowledge of Docker and Kubernetes</li>
-            <li data-lang="en" data-en="AZ-900 Azure Certification" data-pt="Certificação AZ-900 da Azure">AZ-900 Azure Certification</li>
-            <li data-lang="en" data-en="Experience with Java, JavaScript, Node.js, React, and React Native" data-pt="Experiência com Java, JavaScript, Node.js, React e React Native">Experience with Java, JavaScript, Node.js, React, and React Native</li>
-            <li data-lang="en" data-en="Management of back-end services such as Couchbase, Kafka, Elasticsearch, Cloudera, Camunda, and Grafana" data-pt="Gerenciamento de serviços de back-end como Couchbase, Kafka, Elasticsearch, Cloudera, Camunda e Grafana">Management of back-end services such as Couchbase, Kafka, Elasticsearch, Cloudera, Camunda, and Grafana</li>
-            <li data-lang="en" data-en="Logging, monitoring, and tracing applications for microservices architecture" data-pt="Logging, monitoramento e rastreamento de aplicações para arquitetura de microsserviços">Logging, monitoring, and tracing applications for microservices architecture</li>
-            <li data-lang="en" data-en="Working with databases like Postgres" data-pt="Trabalhando com bancos de dados como Postgres">Working with databases like Postgres</li>
-            <li data-lang="en" data-en="Full-stack development with Java and JavaScript" data-pt="Desenvolvimento full-stack com Java e JavaScript">Full-stack development with Java and JavaScript</li>
-        </ul>
-    </section>
+                <section id="contribution">
+                    <h2 data-lang="en" data-en="Contribution" data-pt="Contribuição">Contribution</h2>
+                    <p data-lang="en" data-en="I am excited to bring my skills and experience to your team and contribute to the ongoing success of your organization. I believe I can be a valuable asset and look forward to discussing my qualifications and enthusiasm for the position." data-pt="Estou empolgado em trazer minhas habilidades e experiência para a sua equipe e contribuir para o sucesso contínuo da sua organização. Acredito que posso ser um ativo valioso e aguardo ansiosamente a oportunidade de discutir minhas qualificações e entusiasmo pela posição.">I am excited to bring my skills and experience to your team and contribute to the ongoing success of your organization. I believe I can be a valuable asset and look forward to discussing my qualifications and enthusiasm for the position.</p>
+                </section>
+            </div>
     
-    <section id="contribution">
-        <h2 data-lang="en" data-en="Contribution" data-pt="Contribuição">Contribution</h2>
-        <p data-lang="en" data-en="I am excited to bring my skills and experience to your team and contribute to the ongoing success of your organization. I believe I can be a valuable asset and look forward to discussing my qualifications and enthusiasm for the position." data-pt="Estou empolgado em trazer minhas habilidades e experiência para a sua equipe e contribuir para o sucesso contínuo da sua organização. Acredito que posso ser um ativo valioso e aguardo ansiosamente a oportunidade de discutir minhas qualificações e entusiasmo pela posição.">I am excited to bring my skills and experience to your team and contribute to the ongoing success of your organization. I believe I can be a valuable asset and look forward to discussing my qualifications and enthusiasm for the position.</p>
-    </section>
+            <div class="column">
+                <section id="education">
+                    <h2 data-lang="en" data-en="Education" data-pt="Educação">Education</h2>
+                    <ul>
+                        <li>
+                            <h3 data-lang="en" data-en="University of São Paulo" data-pt="Universidade de São Paulo">University of São Paulo</h3>
+                            <p data-lang="en" data-en="Degree in Exact Sciences" data-pt="Licenciatura em Ciências Exatas">Degree in Exact Sciences</p>
+                            <p data-lang="en" data-en="Year of completion: 2015" data-pt="Ano de conclusão: 2015">Year of completion: 2015</p>
+                        </li>
+                        <!-- Add other institutions and courses as necessary -->
+                    </ul>
+                </section>
     
-    <section id="education">
-        <h2 data-lang="en" data-en="Education" data-pt="Educação">Education</h2>
-        <ul>
-            <li>
-                <h3 data-lang="en" data-en="University of São Paulo" data-pt="Universidade de São Paulo">University of São Paulo</h3>
-                <p data-lang="en" data-en="Degree in Exact Sciences" data-pt="Licenciatura em Ciências Exatas">Degree in Exact Sciences</p>
-                <p data-lang="en" data-en="Year of completion: 2015" data-pt="Ano de conclusão: 2015">Year of completion: 2015</p>
-            </li>
-            <!-- Add other institutions and courses as necessary -->
-        </ul>
-    </section>
+                <section id="certifications">
+                    <h2 data-lang="en" data-en="Certifications" data-pt="Certificações">Certifications</h2>
+                    <ul>
+                        <li data-lang="en" data-en="Azure Fundamentals AZ-900 (2022)" data-pt="Azure Fundamentals AZ-900 (2022)">Azure Fundamentals AZ-900 (2022)</li>
+                        <li data-lang="en" data-en="Azure Pipelines - CI/CD, Docker and Kubernetes on Azure DevOps (2021)" data-pt="Azure Pipelines - CI/CD, Docker e Kubernetes no Azure DevOps (2021)">Azure Pipelines - CI/CD, Docker and Kubernetes on Azure DevOps (2021)</li>
+                        <li data-lang="en" data-en="IBM Data Science (2020)" data-pt="IBM Data Science (2020)">IBM Data Science (2020)</li>
+                        <li data-lang="en" data-en="National School of Public Administration: Process Management (2020)" data-pt="Escola Nacional de Administração Pública: Gestão de Processos (2020)">National School of Public Administration: Process Management (2020)</li>
+                        <li data-lang="en" data-en="Advanced Systems Architecture (2020)" data-pt="Arquitetura de Sistemas Avançada (2020)">Advanced Systems Architecture (2020)</li>
+                        <li data-lang="en" data-en="Agile projects with SCRUM (2020)" data-pt="Projetos Ágeis com SCRUM (2020)">Agile projects with SCRUM (2020)</li>
+                        <li data-lang="en" data-en="Fullstack Python Developer (2020)" data-pt="Desenvolvedor Python Fullstack (2020)">Fullstack Python Developer (2020)</li>
+                        <li data-lang="en" data-en="Fullstack Developer at Banco Carrefour (2020)" data-pt="Desenvolvedor Fullstack no Banco Carrefour (2020)">Fullstack Developer at Banco Carrefour (2020)</li>
+                        <li data-lang="en" data-en="Global Fullstack Developer (2020)" data-pt="Desenvolvedor Fullstack Global (2020)">Global Fullstack Developer (2020)</li>
+                        <li data-lang="en" data-en="Front-end Developer with ReactJS (2020)" data-pt="Desenvolvedor Front-end com ReactJS (2020)">Front-end Developer with ReactJS (2020)</li>
+                        <li data-lang="en" data-en="Multiphysical Computer Simulation with Ansys Discovery (2020)" data-pt="Simulação Computacional Multifísica com Ansys Discovery (2020)">Multiphysical Computer Simulation with Ansys Discovery (2020)</li>
+                        <li data-lang="en" data-en="Front-end Developer with Angular (2020)" data-pt="Desenvolvedor Front-end com Angular (2020)">Front-end Developer with Angular (2020)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
     
-    <section id="certifications">
-        <h2 data-lang="en" data-en="Certifications" data-pt="Certificações">Certifications</h2>
-        <ul>
-            <li data-lang="en" data-en="Azure Fundamentals AZ-900 (2022)" data-pt="Azure Fundamentals AZ-900 (2022)">Azure Fundamentals AZ-900 (2022)</li>
-            <li data-lang="en" data-en="Azure Pipelines - CI/CD, Docker and Kubernetes on Azure DevOps (2021)" data-pt="Azure Pipelines - CI/CD, Docker e Kubernetes no Azure DevOps (2021)">Azure Pipelines - CI/CD, Docker and Kubernetes on Azure DevOps (2021)</li>
-            <li data-lang="en" data-en="IBM Data Science (2020)" data-pt="IBM Data Science (2020)">IBM Data Science (2020)</li>
-            <li data-lang="en" data-en="National School of Public Administration: Process Management (2020)" data-pt="Escola Nacional de Administração Pública: Gestão de Processos (2020)">National School of Public Administration: Process Management (2020)</li>
-            <li data-lang="en" data-en="Advanced Systems Architecture (2020)" data-pt="Arquitetura de Sistemas Avançada (2020)">Advanced Systems Architecture (2020)</li>
-            <li data-lang="en" data-en="Agile projects with SCRUM (2020)" data-pt="Projetos Ágeis com SCRUM (2020)">Agile projects with SCRUM (2020)</li>
-            <li data-lang="en" data-en="Fullstack Python Developer (2020)" data-pt="Desenvolvedor Python Fullstack (2020)">Fullstack Python Developer (2020)</li>
-            <li data-lang="en" data-en="Fullstack Developer at Banco Carrefour (2020)" data-pt="Desenvolvedor Fullstack no Banco Carrefour (2020)">Fullstack Developer at Banco Carrefour (2020)</li>
-            <li data-lang="en" data-en="Global Fullstack Developer (2020)" data-pt="Desenvolvedor Fullstack Global (2020)">Global Fullstack Developer (2020)</li>
-            <li data-lang="en" data-en="Front-end Developer with ReactJS (2020)" data-pt="Desenvolvedor Front-end com ReactJS (2020)">Front-end Developer with ReactJS (2020)</li>
-            <li data-lang="en" data-en="Multiphysical Computer Simulation with Ansys Discovery (2020)" data-pt="Simulação Computacional Multifísica com Ansys Discovery (2020)">Multiphysical Computer Simulation with Ansys Discovery (2020)</li>
-            <li data-lang="en" data-en="Front-end Developer with Angular (2020)" data-pt="Desenvolvedor Front-end com Angular (2020)">Front-end Developer with Angular (2020)</li>
-        </ul>
-    </section>
-    
-    <footer>
-        <p data-lang="en" data-en="Contact: flavio_godoy@yahoo.com.br | +55 85 98224 5588" data-pt="Contato: flavio_godoy@yahoo.com.br | +55 85 98224 5588">Contact: flavio_godoy@yahoo.com.br | +55 85 98224 5588</p>
-        <p data-lang="en" data-en="Address: Street Iracy de Sousa, 65, Fortaleza, CE - Brazil" data-pt="Endereço: Rua Iracy de Sousa, 65, Fortaleza, CE - Brasil">Address: Street Iracy de Sousa, 65, Fortaleza, CE - Brazil</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/flaviosgodoy/">Flavio Schutzer de Godoy</a></p>
-        <p>GitHub: <a href="https://github.com/FlavioSG-BR">FlavioSG-BR</a></p>
-    </footer>
+        <footer>
+            <p data-lang="en" data-en="Contact: flavio_godoy@yahoo.com.br | +55 85 98224 5588" data-pt="Contato: flavio_godoy@yahoo.com.br | +55 85 98224 5588">Contact: flavio_godoy@yahoo.com.br | +55 85 98224 5588</p>
+            <p data-lang="en" data-en="Address: Street Iracy de Sousa, 65, Fortaleza, CE - Brazil" data-pt="Endereço: Rua Iracy de Sousa, 65, Fortaleza, CE - Brasil">Address: Street Iracy de Sousa, 65, Fortaleza, CE - Brazil</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/flaviosgodoy/">Flavio Schutzer de Godoy</a></p>
+            <p>GitHub: <a href="https://github.com/FlavioSG-BR">FlavioSG-BR</a></p>
+        </footer>
+    </div>
 </body>
 </html>
